@@ -36,7 +36,7 @@ export default function Price() {
         <h1>
           {coin.asset_id_base}/{coin.asset_id_quote}
         </h1>
-        <h2>{coin.rate}</h2>
+        <h2>1 {coin.asset_id_base} = {coin.rate} {coin.asset_id_quote}</h2>
       </div>
     );
   };
